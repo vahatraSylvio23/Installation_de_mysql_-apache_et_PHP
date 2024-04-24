@@ -52,6 +52,7 @@ On revient dans le dossier de mysql-8.3.0 dans le dossier
         :~$ make
 
  Puis:
+ 
 	:~$ make install
-
- L'installation va se terminer
+ 
+pour finir l'installation
