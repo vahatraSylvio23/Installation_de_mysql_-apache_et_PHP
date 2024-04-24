@@ -1,5 +1,7 @@
 # Installation de mysql ,apache et PHP
 
+### Installation de mysql
+
 (devoir de linux du 19 Fevrier 2024)
 
 1ère etape: Installation de mysql
@@ -44,3 +46,8 @@ On revient dans le dossier de mysql-8.3.0 dans le dossier
 
 
         :~$ cmake  ..
+
+ Après, on va compiler les source avec la commande :
+
+        :~$ make
+	:~$ make install
