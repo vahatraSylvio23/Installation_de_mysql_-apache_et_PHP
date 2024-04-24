@@ -114,7 +114,7 @@ Installation du code source pcre-8.00.tar.gz
   puis
   
          :~$ sudo make install
-## #Installation de PHP
+### Installation de PHP
 Télechargeons son code source encore sur http://packages.ubuntu.com 
 Nous allons prenre la version 8.3.6
 
