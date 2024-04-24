@@ -1,5 +1,8 @@
 # Installation de mysql ,apache2 et PHP
 (devoir de linux du 19 Fevrier 2024)
+
+Les captures d'écran se situent dans le même repositories que cet fichier
+
 ### Installation de mysql
 
 
@@ -112,7 +115,7 @@ Installation du code source pcre-8.00.tar.gz
   
          :~$ sudo make install
 ## #Installation de PHP
-Télechargeons son codze source encore sur http://packages.ubuntu.com 
+Télechargeons son code source encore sur http://packages.ubuntu.com 
 Nous allons prenre la version 8.3.6
 
 Désarchivons le fichier compressée
@@ -124,10 +127,19 @@ Désarchivons le fichier compressée
    
           :~$ ./configure
 
-   Il nous faudra installer  ces dépendances avec la commande
-          :~$ sudo apt install openssl libssl3 libncurses
+Il nous faudra installer  ces dépendances avec la commande
+   
+          :~$ sudo apt install libxml2-dev pkg-config sqlite3
 
+Rééxecutons le fichier configure
 
+	   :~$ ./configure
 
+Compilation des sources
+    
+           :~$ make
 
+Et enfin l'installation 
+
+           :~$ sudo make install
 
