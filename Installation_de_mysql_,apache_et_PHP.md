@@ -9,8 +9,10 @@ Nous aurons le version compressée mysql.tar.gz
 Désarchivons le fichier
 
 
-   :~$ tar -xvf mysql-8.3.0.tar.gz
 
+    :~$ tar -xvf mysql-8.3.0.tar.gz
+
+   
 Puis entrons dans le répertoire de son dossier
 
     :~$ cd mysql-8.3.0
