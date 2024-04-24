@@ -3,7 +3,7 @@
 ### Installation de mysql
 
 
-Télechargeons la version 8.3.0 de mysql sur le site httpd://packages.ubuntu.com
+Télechargeons la version 8.3.0 de mysql sur le site http://packages.ubuntu.com
 Nous aurons le version compressée mysql.tar.gz
 
 Désarchivons le fichier
@@ -61,7 +61,14 @@ pour finir l'installation
 
 
 ### Installation de apache2
+A télécharger sur http://packages.ubuntu.com ou à copier à partir d'une clé usb 
+Le nom du code source est httpd-2.4.59.tar.gz
 
+
+Désarchivons le code source avec :
+
+         :~$ tar -xvf httpd-2.4.59.tar.gz
+	 
 Nous avons besoins d'installer ces dépendances :
 
 apr-1.7.4 , apr-util-1.6.3 et pcre-8.00 pour la compatibilité 
@@ -104,5 +111,23 @@ Installation du code source pcre-8.00.tar.gz
   puis
   
          :~$ sudo make install
+## #Installation de PHP
+Télechargeons son codze source encore sur http://packages.ubuntu.com 
+Nous allons prenre la version 8.3.6
+
+Désarchivons le fichier compressée
+
+          :~$ tar -xvf php-8.3.6.tar.gz
+	  :~$ cd php-8.3.6
+
+   Execution du fichier configure
+   
+          :~$ ./configure
+
+   Il nous faudra installer  ces dépendances avec la commande
+          :~$ sudo apt install openssl libssl3 libncurses
+
+
+
 
 
