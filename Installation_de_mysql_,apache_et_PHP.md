@@ -1,24 +1,26 @@
 # Installation de mysql ,apache et PHP
-
+(devoir de linux du 19 Fevrier 2024)
 ### Installation de mysql
 
-(devoir de linux du 19 Fevrier 2024)
 
-1ère etape: Installation de mysql
-Telechargeons la version 8.3.0 de mysql sur le site httpd://packages.ubuntu.com
+Télechargeons la version 8.3.0 de mysql sur le site httpd://packages.ubuntu.com
 Nous aurons le version compressée mysql.tar.gz
 
-Desarchivons le fichier
+Désarchivons le fichier
+
+
    :~$ tar -xvf mysql-8.3.0.tar.gz
 
-Puis entrons dans le repertoire de son dossier
+Puis entrons dans le répertoire de son dossier
+
     :~$ cd mysql-8.3.0
 
 Exécutons le fichier configure.cmake mais créons un dossier pour faciliter l'exécution
 
      :~$ mkdir dossier
      :~$ cd dossier
-On va l'executer dans le chemin où se trouve cmakelist.txt
+     
+On va l'exécuter dans le chemin où se trouve cmakelist.txt
 
      :~$ cmake ..
 
